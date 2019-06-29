@@ -16,6 +16,6 @@ first_prglength = live[live.birthord == 1].prglngth      # subsetting pregnant l
 
 other_prglength = live[live.birthord != 1].prglngth      # subsetting pregnant length of the first born babies
 
-first_prglength.std(), other_prglength.std()        # standard deviation of fisrt pregnancy length and second pregnancy length
+     # standard deviation of fisrt pregnancy length and second pregnancy length
 
 CohenEffectSize(first_prglength, other_prglength)  # In this above example, Cohen's D was found to be 0.0288 suggesting that the first born has more effect than others.
