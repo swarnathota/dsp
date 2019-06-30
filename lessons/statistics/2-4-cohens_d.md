@@ -3,7 +3,7 @@
     from thinkstats2 import CohenEffectSize # importing CohenEffectSize from the authours code(thinkstats2.py)
     import first
     import thinkstats2
-    live = df[df.outcome == 1] # Live babie are into account. 
+    live = df[df.outcome == 1] # Live babies are considered. 
 
     first = live[live.birthord == 1].totalwgt_lb    # subsetting total weight of the first born babies  
 
