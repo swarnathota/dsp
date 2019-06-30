@@ -1,7 +1,8 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
     from thinkstats2 import CohenEffectSize # importing CohenEffectSize from the authours code(thinkstats2.py)
-
+    import first
+    import thinkstats2
     live = df[df.outcome == 1] # Live babie are into account. 
 
     first = live[live.birthord == 1].totalwgt_lb    # subsetting total weight of the first born babies  
