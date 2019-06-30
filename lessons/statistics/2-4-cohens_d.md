@@ -1,6 +1,7 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
     from thinkstats2 import CohenEffectSize # importing CohenEffectSize from the authours code(thinkstats2.py)
+    import nsfg
     import first
     import thinkstats2
     live = df[df.outcome == 1] # Live babies are considered. 
@@ -17,6 +18,6 @@ Cohen's D, effect size, answers the question how much effect either first born o
 
     other_prglength = live[live.birthord != 1].prglngth      # subsetting pregnant length of the first born babies
 
-     CohenEffectSize(first_prglength, other_prglength)  
+    CohenEffectSize(first_prglength, other_prglength)  
      
  In this above example, Cohen's D was found to be 0.0288 suggesting that the first born has more effect than others.
