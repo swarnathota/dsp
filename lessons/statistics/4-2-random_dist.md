@@ -5,8 +5,8 @@
     import cumulative
     import random
     num = np.random.random(1000) # generates random variables 
-    pmf = thinkstats2.Pmf(num)  #
-    cdf = thinkstats2.Cdf(num)
+    pmf = thinkstats2.Pmf(num)  #using the function Pmf (probability mass function) thinkstats2
+    cdf = thinkstats2.Cdf(num) #using cumulative distribution function from authors code.
     thinkplot.Cdf(cdf)
     thinkplot.Config(xlabel = 'variables', ylabel = 'CDF')
     thinkplot.Pmf(pmf, linewidth = 0.05)
